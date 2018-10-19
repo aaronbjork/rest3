@@ -14,8 +14,8 @@ steps:
     dotnet build --configuration $(buildConfiguration)
   displayName: 'Build'
 
-#- task: PublishBuildArtifacts@1
-#  displayName: Publish artifacts
+ task: PublishBuildArtifacts@1
+  displayName: Publish artifacts
 
 - task: DotNetCoreCLI@2
   inputs:
