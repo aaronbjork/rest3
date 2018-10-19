@@ -12,3 +12,9 @@ variables:
 steps:
 - script: dotnet build --configuration $(buildConfiguration)
   displayName: 'dotnet build $(buildConfiguration)'
+
+- task: AzureRmWebAppDeployment@3
+  inputs:
+    azureSubscription: 'dev-resources-connect'
+    WebAppName: 'rest3'
+    Package: $(System.ArtifactsDirectory)/**/*.zip
