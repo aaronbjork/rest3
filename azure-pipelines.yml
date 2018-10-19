@@ -10,11 +10,11 @@ variables:
   buildConfiguration: 'Release'
 
 steps: 
-- script: |
+- script: 
     dotnet build --configuration $(buildConfiguration)
   displayName: 'Build'
 
- task: PublishBuildArtifacts@1
+- task: PublishBuildArtifacts@1
   displayName: Publish artifacts
 
 - task: DotNetCoreCLI@2
