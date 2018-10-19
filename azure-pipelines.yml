@@ -15,8 +15,16 @@ steps:
 
 - task: PublishBuildArtifacts@1
 
+- task: DotNetCoreCLI@2
+  inputs:
+    command: publish
+    publishWebProjects: True
+    arguments: '--configuration $(buildConfiguration) --output $(System.ArtifactsDirectory)'
+    zipAfterPublish: True
+
 - task: AzureRmWebAppDeployment@3
+  displayName: Publish to Azure
   inputs:
     azureSubscription: 'dev-resources-connect'
     WebAppName: 'rest3'
-    Package: $(Build.ArtifactsDirectory)/**/*.zip
+    Package: $(System.ArtifactsDirectory)/**/*.zip
