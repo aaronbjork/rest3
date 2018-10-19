@@ -1,0 +1,14 @@
+C:\Users\abjork\source\repos\rest3\bin\Debug\netcoreapp2.1\Rest3.deps.json
+C:\Users\abjork\source\repos\rest3\bin\Debug\netcoreapp2.1\Rest3.runtimeconfig.json
+C:\Users\abjork\source\repos\rest3\bin\Debug\netcoreapp2.1\Rest3.runtimeconfig.dev.json
+C:\Users\abjork\source\repos\rest3\bin\Debug\netcoreapp2.1\Rest3.dll
+C:\Users\abjork\source\repos\rest3\bin\Debug\netcoreapp2.1\Rest3.pdb
+C:\Users\abjork\source\repos\rest3\obj\Debug\netcoreapp2.1\Rest3.csprojAssemblyReference.cache
+C:\Users\abjork\source\repos\rest3\obj\Debug\netcoreapp2.1\Rest3.csproj.CoreCompileInputs.cache
+C:\Users\abjork\source\repos\rest3\obj\Debug\netcoreapp2.1\Rest3.RazorAssemblyInfo.cache
+C:\Users\abjork\source\repos\rest3\obj\Debug\netcoreapp2.1\Rest3.RazorAssemblyInfo.cs
+C:\Users\abjork\source\repos\rest3\obj\Debug\netcoreapp2.1\Rest3.AssemblyInfoInputs.cache
+C:\Users\abjork\source\repos\rest3\obj\Debug\netcoreapp2.1\Rest3.AssemblyInfo.cs
+C:\Users\abjork\source\repos\rest3\obj\Debug\netcoreapp2.1\Rest3.RazorTargetAssemblyInfo.cache
+C:\Users\abjork\source\repos\rest3\obj\Debug\netcoreapp2.1\Rest3.dll
+C:\Users\abjork\source\repos\rest3\obj\Debug\netcoreapp2.1\Rest3.pdb
